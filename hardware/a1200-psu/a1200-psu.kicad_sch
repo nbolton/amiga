@@ -2983,10 +2983,10 @@
   )
 
   (symbol (lib_id "Device:L_Coupled") (at 87.63 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005e696aca)
-    (property "Reference" "L1" (id 0) (at 87.63 39.8526 0))
-    (property "Value" "L_Coupled" (id 1) (at 87.63 42.164 0))
+    (property "Reference" "L1" (id 0) (at 87.249 39.37 0))
+    (property "Value" "L_Coupled" (id 1) (at 87.249 41.91 0))
     (property "Footprint" "" (id 2) (at 87.63 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4252,7 +4252,7 @@
   (symbol (lib_id "Device:C_Small") (at 93.98 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0e475606-0972-410d-9d2a-e185de5dfec3)
-    (property "Reference" "C?" (id 0) (at 96.3168 52.1716 0)
+    (property "Reference" "C4" (id 0) (at 96.3168 52.1716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (id 1) (at 96.3168 54.483 0)
@@ -4271,7 +4271,7 @@
   (symbol (lib_id "power:Earth") (at 93.98 56.515 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 140d05a2-eaad-4824-bf22-b4c1b5fc3c05)
-    (property "Reference" "#PWR?" (id 0) (at 93.98 62.865 0)
+    (property "Reference" "#PWR03" (id 0) (at 93.98 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 93.98 60.325 0)
@@ -4289,8 +4289,8 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 64.77 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2facb6fc-ac96-441e-9800-d8af24285397)
-    (property "Reference" "TH?" (id 0) (at 65.0875 38.1 90))
-    (property "Value" "Thermistor_NTC" (id 1) (at 65.0875 40.64 90))
+    (property "Reference" "TH1" (id 0) (at 65.0875 38.1 90))
+    (property "Value" "30R" (id 1) (at 65.0875 40.64 90))
     (property "Footprint" "" (id 2) (at 63.5 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4304,7 +4304,7 @@
   (symbol (lib_id "Device:C_Small") (at 111.76 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 57508837-9844-4605-9233-1414d37064cf)
-    (property "Reference" "C?" (id 0) (at 114.0968 45.8216 0)
+    (property "Reference" "C18" (id 0) (at 114.0968 45.8216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220n" (id 1) (at 114.0968 48.133 0)
@@ -4323,7 +4323,7 @@
   (symbol (lib_id "Device:C_Small") (at 74.93 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9bd3b76d-6431-4e72-98c0-8c8f9369d359)
-    (property "Reference" "C?" (id 0) (at 77.2668 45.8216 0)
+    (property "Reference" "C2" (id 0) (at 77.2668 45.8216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220n" (id 1) (at 77.2668 48.133 0)
@@ -4349,6 +4349,9 @@
     )
     (path "/00000000-0000-0000-0000-00005e6e146a"
       (reference "#PWR02") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/140d05a2-eaad-4824-bf22-b4c1b5fc3c05"
+      (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e6bda05"
       (reference "#PWR04") (unit 1) (value "Earth") (footprint "")
@@ -4401,14 +4404,17 @@
     (path "/00000000-0000-0000-0000-00005ea3f50c"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
-    (path "/140d05a2-eaad-4824-bf22-b4c1b5fc3c05"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005e80fecf"
       (reference "C1") (unit 1) (value "33u") (footprint "")
     )
+    (path "/9bd3b76d-6431-4e72-98c0-8c8f9369d359"
+      (reference "C2") (unit 1) (value "220n") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005e6976c3"
       (reference "C3") (unit 1) (value "4n7") (footprint "")
+    )
+    (path "/0e475606-0972-410d-9d2a-e185de5dfec3"
+      (reference "C4") (unit 1) (value "4n7") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e74c909"
       (reference "C5") (unit 1) (value "470u") (footprint "")
@@ -4449,14 +4455,8 @@
     (path "/00000000-0000-0000-0000-00005ea3f108"
       (reference "C17") (unit 1) (value "4700u") (footprint "")
     )
-    (path "/0e475606-0972-410d-9d2a-e185de5dfec3"
-      (reference "C?") (unit 1) (value "4n7") (footprint "")
-    )
     (path "/57508837-9844-4605-9233-1414d37064cf"
-      (reference "C?") (unit 1) (value "220n") (footprint "")
-    )
-    (path "/9bd3b76d-6431-4e72-98c0-8c8f9369d359"
-      (reference "C?") (unit 1) (value "220n") (footprint "")
+      (reference "C18") (unit 1) (value "220n") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e6b8e8b"
       (reference "D1") (unit 1) (value "BRX44") (footprint "")
@@ -4570,7 +4570,7 @@
       (reference "SW1") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/2facb6fc-ac96-441e-9800-d8af24285397"
-      (reference "TH?") (unit 1) (value "Thermistor_NTC") (footprint "")
+      (reference "TH1") (unit 1) (value "30R") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e6e99dc"
       (reference "TR1") (unit 1) (value "TRANSF7") (footprint "")
