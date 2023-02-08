@@ -2,6 +2,8 @@
 
 Original: https://github.com/baldengineer/bit-preserve/tree/master/Amiga/A500.PSU.312503-03
 
+Schematic by Greg McCarthy (https://github.com/StormTrooper)
+
 ## Original author comments
 
 The schematic was drawn up in KiCad 5.1.5 and was created by tracing the layout on the PCB.
