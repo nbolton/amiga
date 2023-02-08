@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "transformer")(type "Legacy")(uri "${KIPRJMOD}/transformer.lib")(options "")(descr ""))
+  (lib (name "a500-psu-rescue")(type "Legacy")(uri "${KIPRJMOD}/a500-psu-rescue.lib")(options "")(descr ""))
+)
