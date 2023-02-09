@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "Amiga A1200")(type "KiCad")(uri "${KIPRJMOD}/a1200-psu.kicad_sym")(options "")(descr ""))
+  (lib (name "Amiga 1200")(type "KiCad")(uri "${KIPRJMOD}/a1200-psu.kicad_sym")(options "")(descr ""))
+  (lib (name "Amiga 500")(type "KiCad")(uri "C:/Projects/nbolton/amiga/hardware/a500-psu/a500-psu.kicad_sym")(options "")(descr ""))
 )
