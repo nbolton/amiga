@@ -7,7 +7,7 @@
   (title_block
     (title "Amiga A1200 PSU (UK)")
     (date "2023-02-10")
-    (rev "1C")
+    (rev "1D")
     (company "Nick Bolton")
     (comment 1 "Based on the A500 PSU schematic by Greg McCarthy")
     (comment 2 "Rating: UK 220-240 V 300 mA")
