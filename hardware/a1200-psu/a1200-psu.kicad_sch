@@ -22040,7 +22040,7 @@
     (property "Value" "A1200-PSU-TR" (id 1) (at 220.98 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Transformer_THT:Transformer_CHK_EI48-8VA_Neutral" (id 2) (at 219.71 139.7 0)
+    (property "Footprint" "Amiga 1200:Transformer" (id 2) (at 219.71 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 219.71 139.7 0)
@@ -23433,7 +23433,7 @@
       (reference "TH1") (unit 1) (value "30R") (footprint "")
     )
     (path "/32bac948-60ce-4bc5-be71-ae7e97ee9e18"
-      (reference "TR1") (unit 1) (value "A1200-PSU-TR") (footprint "Transformer_THT:Transformer_CHK_EI48-8VA_Neutral")
+      (reference "TR1") (unit 1) (value "A1200-PSU-TR") (footprint "Amiga 1200:Transformer")
     )
     (path "/ce52b9e9-9f67-4642-b228-ee4173e43849"
       (reference "U1") (unit 1) (value "UC3844_DIP8") (footprint "Package_DIP:DIP-8_W7.62mm")

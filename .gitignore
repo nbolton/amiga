@@ -3,3 +3,4 @@ fp-info-cache
 \#auto_saved_files\#
 *.bak
 *-bak
+.DS_Store
