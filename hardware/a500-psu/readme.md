@@ -1,4 +1,5 @@
-# Amiga A500 Power Suppy P/N 312503 Rev 03
+# Amiga 500 PSU (Power Supply Unit)
+##  P/N 312503 Rev 03
 
 Original: https://github.com/baldengineer/bit-preserve/tree/master/Amiga/A500.PSU.312503-03
 
