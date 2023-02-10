@@ -14,3 +14,4 @@ I've included components references on the schematic however on the PCB version 
 
 The schematic should be correct based on the PCB layout however there could be some errors I have missed. 
 
+![A500 PSU schematic](https://github.com/nbolton/amiga/blob/main/hardware/a500-psu/a500-psu.png?raw=true)
