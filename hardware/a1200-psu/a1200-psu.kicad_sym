@@ -260,11 +260,11 @@
       )
     )
   )
-  (symbol "AC_IN" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "AC-In" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "J?" (id 0) (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AC_IN" (id 1) (at 0 6.35 0)
+    (property "Value" "AC-In" (id 1) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 0 0)
@@ -282,7 +282,7 @@
     (property "ki_fp_filters" "Connector*:*_1x??_*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "AC_IN_1_1"
+    (symbol "AC-In_1_1"
       (rectangle (start -1.27 -2.413) (end -0.508 -2.667)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type outline))
