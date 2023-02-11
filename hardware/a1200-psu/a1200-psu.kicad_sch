@@ -21531,7 +21531,7 @@
     (property "Value" "Conn_01x05" (id 1) (at 318.262 110.4646 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 316.23 109.22 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal" (id 2) (at 316.23 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 316.23 109.22 0)
@@ -22735,7 +22735,7 @@
     (uuid bcd00d62-58ab-42ee-8226-ab8ed47671c3)
     (property "Reference" "J1" (id 0) (at 95.25 82.55 0))
     (property "Value" "220V" (id 1) (at 95.25 85.09 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 95.25 91.44 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" (id 2) (at 95.25 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 95.25 91.44 0)
@@ -23393,10 +23393,10 @@
       (reference "F1") (unit 1) (value "250V T 1A") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
     )
     (path "/bcd00d62-58ab-42ee-8226-ab8ed47671c3"
-      (reference "J1") (unit 1) (value "220V") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "220V") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005e7024e2"
-      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal")
     )
     (path "/843a1a7e-3157-4032-a526-52baa7686c09"
       (reference "L1") (unit 1) (value "47mH") (footprint "Filter:Filter_FILTERCON_1FPxx")
