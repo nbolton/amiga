@@ -6,7 +6,7 @@
 
   (title_block
     (title "Amiga A1200 PSU (UK)")
-    (date "2023-02-10")
+    (date "2023-02-11")
     (rev "1G")
     (company "Nick Bolton")
     (comment 1 "Based on the A500 PSU schematic by Greg McCarthy")
