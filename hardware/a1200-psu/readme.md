@@ -15,4 +15,6 @@ Original A500 PSU schematic: https://github.com/baldengineer/bit-preserve/tree/m
 
 ![Amiga A1200 PSU PCB 3D](https://raw.githubusercontent.com/nbolton/amiga/60c952ec016f8ac2966772f3604cefdeb5cfc881/hardware/a1200-psu/a1200-psu-pcb-3d.png)
 
-![Amiga A1200 PSU original board](https://github.com/nbolton/amiga/blob/main/hardware/a1200-psu/a1200-psu-photo.jpg?raw=true)
+![Amiga A1200 PSU photo front](https://github.com/nbolton/amiga/blob/main/hardware/a1200-psu/a1200-psu-pcb-front.jpg?raw=true)
+
+![Amiga A1200 PSU photo back](https://github.com/nbolton/amiga/blob/main/hardware/a1200-psu/a1200-psu-pcb-back.jpg?raw=true)
