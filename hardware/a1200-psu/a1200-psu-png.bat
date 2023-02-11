@@ -4,5 +4,5 @@
 
 @where pdftoppm >nul 2>nul
 @if %ERRORLEVEL% neq 0 choco install poppler
-pdftoppm -r 800 -png %file1%.pdf > %file1%.png
+pdftoppm -r 500 -png %file1%.pdf > %file1%.png
 pdftoppm -r 800 -png %file2%.pdf > %file2%.png
