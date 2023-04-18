@@ -1,8 +1,8 @@
 # Amiga 1200 PSU (Power Supply Unit)
 
-PCB P-No: 30501-001 A
-PSU P-No: 391029-02
-Rating: UK 220-240 V 300 mA
+- PCB P-No: 30501-001 A
+- PSU P-No: 391029-02
+- Rating: UK 220-240 V 300 mA
 
 This A1200 schematic is based on A500 PSU schematic by Greg McCarthy (https://github.com/StormTrooper)
 
