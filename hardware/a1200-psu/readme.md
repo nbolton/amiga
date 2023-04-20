@@ -4,6 +4,8 @@
 - PSU P-No: 391029-02
 - Rating: UK 220-240 V 300 mA
 
+**TODO:** Update README to reflect PR https://github.com/nbolton/amiga/pull/2 (thanks @ChewChewie)
+
 This A1200 schematic is based on A500 PSU schematic by Greg McCarthy (https://github.com/StormTrooper)
 
 Original A500 PSU schematic: https://github.com/baldengineer/bit-preserve/tree/master/Amiga/A500.PSU.312503-03
