@@ -1,0 +1,10 @@
+Reference,Value,Farnell,Footprint,Datasheet,Qty
+C1,100uF 385V,1839321,Capacitor_THT:CP_Radial_D26.0mm_P10.00mm_SnapIn,https://www.farnell.com/datasheets/1879942.pdf,1
+C2,220uF 10V,2063065,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,https://www.farnell.com/datasheets/2820375.pdf,1
+"C3, C4",220uF 16V,2841894,Capacitor_THT:CP_Radial_D18.0mm_P7.50mm,https://4donline.ihs.com/images/VipMasterIC/IC/NICH/NICH-S-A0003527663/NICH-S-A0003527663-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0,2
+"C5, C6",110uF 16V,3254073,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm,https://www.farnell.com/datasheets/2885139.pdf,2
+C7,2.2uF 63V,2859815,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0015955560/VISH-S-A0015955568-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0,1
+C8,470uF 25V,2079147,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1024.pdf,1
+"C9, C10",10uF 50V,2217568,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://www.farnell.com/datasheets/3979591.pdf,2
+C11,100uF 25V,2805620,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,https://4donline.ihs.com/images/VipMasterIC/IC/PANA/PANA-S-A0017226361/PANA-S-A0017230245-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0,1
+R1,8k2,1735169,Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal,https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0011539484/VISH-S-A0011539484-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0,1

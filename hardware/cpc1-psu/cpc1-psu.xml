@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\nbolton\amiga\hardware\cpc1-psu\cpc1-psu.kicad_sch</source>
+    <date>14/08/2023 13:45:04</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cpc1-psu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF 385V</value>
+      <footprint>Capacitor_THT:CP_Radial_D26.0mm_P10.00mm_SnapIn</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1879942.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1839321</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Farnell" value="1839321"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c34bb2b8-87c5-4f53-ac7f-2925e791efdc</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>220uF 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2820375.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2063065</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2063065"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40eb5b4f-ddd1-4cdb-b23a-46ee23814e4e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>220uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/NICH/NICH-S-A0003527663/NICH-S-A0003527663-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0</datasheet>
+      <fields>
+        <field name="Farnell">2841894</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2841894"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff466a61-2eff-4ef7-be08-6b6a66a5d6c1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/NICH/NICH-S-A0003527663/NICH-S-A0003527663-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0</datasheet>
+      <fields>
+        <field name="Farnell">2841894</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2841894"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3196d9d-dd7a-4d43-9a90-35b572a13c76</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>110uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2885139.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3254073</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="3254073"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b96645f-3b2f-4863-b4de-1411e689bed8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>110uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2885139.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3254073</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="3254073"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a927c38-7497-4eb6-84e8-5ef4625bca1f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF 63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0015955560/VISH-S-A0015955568-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0</datasheet>
+      <fields>
+        <field name="Farnell">2859815</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2859815"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0d9457c-6074-4109-9cae-2a6a61f7cb29</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>470uF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1024.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2079147</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2079147"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>141d468f-c405-414b-8301-f723d459b233</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3979591.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2217568</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2217568"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cecf9494-0a83-4f03-8736-0ca6331fbe04</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3979591.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2217568</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2217568"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba539472-15bc-4337-b148-16a157a2831c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100uF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/PANA/PANA-S-A0017226361/PANA-S-A0017230245-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0</datasheet>
+      <fields>
+        <field name="Farnell">2805620</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Farnell" value="2805620"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19072a3f-fd96-4a23-a08b-0383da6a9cb1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0011539484/VISH-S-A0011539484-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0</datasheet>
+      <fields>
+        <field name="Farnell">1735169</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Farnell" value="1735169"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0c57c49-b0dd-4cd6-a5c6-5b75664eaedc</tstamps>
+    </comp>
+    <comp ref="XF1">
+      <value>XFMR</value>
+      <footprint>CPC1-PSU:Transformer</footprint>
+      <libsource lib="cpc1-psu" part="XFMR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cpc1-psu.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a45e360-1090-4540-bd70-fdc525049441</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cpc1-psu" part="XFMR">
+      <fields>
+        <field name="Reference">XF</field>
+        <field name="Value">XFMR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="cpc1-psu">
+      <uri>C:\Projects\nbolton\amiga\hardware\cpc1-psu/cpc1-psu.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="unconnected-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="unconnected-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(XF1-Pad1)">
+      <node ref="XF1" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(XF1-Pad4)">
+      <node ref="XF1" pin="4" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(XF1-Pad5)">
+      <node ref="XF1" pin="5" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(XF1-Pad7)">
+      <node ref="XF1" pin="7" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(XF1-Pad8)">
+      <node ref="XF1" pin="8" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(XF1-Pad9)">
+      <node ref="XF1" pin="9" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(XF1-Pad10)">
+      <node ref="XF1" pin="10" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(XF1-Pad12)">
+      <node ref="XF1" pin="12" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(XF1-Pad13)">
+      <node ref="XF1" pin="13" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(XF1-Pad14)">
+      <node ref="XF1" pin="14" pintype="passive"/>
+    </net>
+  </nets>
+</export>
